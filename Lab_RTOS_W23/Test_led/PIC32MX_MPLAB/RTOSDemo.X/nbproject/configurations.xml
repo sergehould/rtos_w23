@@ -21,6 +21,7 @@
       <itemPath>../include/initBoard.h</itemPath>
       <itemPath>../include/Tick_core.h</itemPath>
       <itemPath>../include/util.h</itemPath>
+      <itemPath>../../../../../../rtos_w23/Lab_RTOS_W23/Test_led/PIC32MX_MPLAB/FreeRTOSConfig.h</itemPath>
     </logicalFolder>
     <logicalFolder name="LinkerScript"
                    displayName="Linker Files"
@@ -62,6 +63,7 @@
     <Elem>../../../../../../../../MPLAB_projects/projects/vending_machine/Test_led/PIC32MX_MPLAB</Elem>
     <Elem>../../../../common</Elem>
     <Elem>../../../../../common</Elem>
+    <Elem>../../../../../../rtos_w23/Lab_RTOS_W23/Test_led/PIC32MX_MPLAB</Elem>
   </sourceRootList>
   <projectmakefile>Makefile</projectmakefile>
   <confs>
