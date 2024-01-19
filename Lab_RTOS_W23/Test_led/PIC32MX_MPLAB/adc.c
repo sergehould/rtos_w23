@@ -22,7 +22,7 @@
 
 
 
-#include "adc.h"
+#include "include/adc.h"
 
 #if defined EXPLORER_16_32
 // The PIM socket pin numbers is not  a 1 to 1 match to the PIC pins:

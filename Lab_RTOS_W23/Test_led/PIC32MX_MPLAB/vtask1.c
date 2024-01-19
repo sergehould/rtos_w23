@@ -16,7 +16,7 @@
 #include "queue.h"
 #include "semphr.h"
 #include "include/public.h"
-#include "console.h"
+#include "include/console.h"
 
 /* Private static function declarations */
 static void vTask1( void *pvParameters )

@@ -23,7 +23,7 @@
 *
 *~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
  
-#include "initBoard.h"
+#include "include/initBoard.h"
 #include <stdint.h>
 #include <xc.h>
 #include <sys/attribs.h>
@@ -89,7 +89,7 @@
 void ios_init(void){
     DDPCONbits.JTAGEN = 0; // JTAG shared with RA5, RA4, RA1 and RA0
     /* LEDs */
-    TRISAbits.TRISA7 = 0; 		//LED D10 
+    //TRISAbits.TRISA7 = 0; 		//LED D10 
 	TRISAbits.TRISA6 = 0;   	//LED D9
     TRISAbits.TRISA5 = 0;   	//LED D8
     TRISAbits.TRISA4 = 0;       //LED D7
@@ -101,8 +101,9 @@ void ios_init(void){
    
     TRISDbits.TRISD6 =1; //S3
     TRISDbits.TRISD7 =1;//S6
+    TRISAbits.TRISA7 =1; //S5 - shared with LED D10
     TRISDbits.TRISD13 =1;//S4
-    //TRISAbits.TRISA7 =1; //S5 - shared with LED D10
+
 	
     /* Turns off all LEDs*/
      LATA = LATA & 0xffff0000;

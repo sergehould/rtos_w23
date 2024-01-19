@@ -18,7 +18,7 @@
 #include <stdio.h>
 /* Hardware specific includes. */
 #include "include/public.h"
-#include "console.h"
+#include "include/console.h"
 
 /* Prototypes for the standard FreeRTOS callback/hook functions implemented within this file. */
 void vApplicationStackOverflowHook( TaskHandle_t pxTask, char *pcTaskName );
@@ -31,7 +31,7 @@ int main( void )
     //lcd_init(); 
     //adc_init();
     //uart2_wInt_init();
-    uart2_init();			
+    uart2_init(115200);			
     stdio_set(C_UART2);
     printf("Hi Uart2\n");
     
