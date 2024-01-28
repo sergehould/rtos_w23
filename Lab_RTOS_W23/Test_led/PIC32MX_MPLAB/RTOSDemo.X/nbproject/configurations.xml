@@ -41,14 +41,13 @@
         <itemPath>../../../Source/timers.c</itemPath>
         <itemPath>../../../Source/portable/MemMang/heap_4.c</itemPath>
       </logicalFolder>
-      <itemPath>../vtask1.c</itemPath>
-      <itemPath>../vtask2.c</itemPath>
       <itemPath>../Tick_core.c</itemPath>
       <itemPath>../adc.c</itemPath>
       <itemPath>../console.c</itemPath>
       <itemPath>../initBoard.c</itemPath>
       <itemPath>../util.c</itemPath>
       <itemPath>../main_lab1.c</itemPath>
+      <itemPath>../lab1_tasks.c</itemPath>
     </logicalFolder>
     <logicalFolder name="ExternalFiles"
                    displayName="Important Files"
