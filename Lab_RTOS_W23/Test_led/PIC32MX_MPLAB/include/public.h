@@ -14,6 +14,5 @@
 //#define     CONSOLE     C_LCD
 #define     CONSOLE     C_UART1
     
-void vStartTask1(void);
-void vStartTask2(void);
+void start_all_tasks(void);
 #endif /* PUBLIC_H */
