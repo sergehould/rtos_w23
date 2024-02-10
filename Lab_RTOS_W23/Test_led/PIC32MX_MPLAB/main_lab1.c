@@ -27,7 +27,7 @@ int main( void )
 {
     /* Enable multiVectoredInt.   */
 	INTCONbits.MVEC=1; 
-    //ios_init();
+    ios_init();
     //lcd_init(); 
     //adc_init();
     //uart2_wInt_init();
